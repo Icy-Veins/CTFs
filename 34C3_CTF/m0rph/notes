@@ -1,0 +1,11 @@
+main: 0x555555554a76
+
+0x555555554ab5:      call   0x5555555548d0
+Guessed arguments:
+arg[0]: 0x0             << addr
+arg[1]: 0x1000          << length
+arg[2]: 0x7             << prot     = 0b0111       PROT_READ | PROT_WRITE | PROT_EXEC
+arg[3]: 0x22 ('"')      << flags    = 0b100010     MAP_ANONYMOUS | MAP_PRIVATE
+arg[4]: 0xffffffff      << fd
+arg[5]: 0x0             << offset
+
